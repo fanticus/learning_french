@@ -1,20 +1,21 @@
 import { StyleSheet } from 'react-native'
-import { BORDER_BLUE } from '../../../constants'
+import { BORDER_BLUE } from '../../constants'
 
 const styles = StyleSheet.create({
-    container: {
-        flexDirection: 'row',
-        paddingVertical: 15,
-        paddingLeft: 15,
-        borderBottomColor: BORDER_BLUE,
-        borderStyle: 'solid',
-        borderBottomWidth: 1,
-    },
-    titleStyle: {
-        fontWeight: 'bold',
-        fontSize: 16,
-        color: '#000',
-    }
+  container: {
+    paddingHorizontal: 15
+  },
+  titleStyle: {
+    paddingVertical: 15,
+    fontWeight: 'bold',
+    fontSize: 16,
+    color: '#000'
+  },
+  bottomLine: {
+    width: '100%',
+    height: 0.5,
+    backgroundColor: BORDER_BLUE
+  }
 })
 
 export default styles

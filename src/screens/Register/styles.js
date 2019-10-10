@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { DEEP_BLUE } from '../../../constants'
+import { DEEP_BLUE } from '../../constants'
 
 const styles = StyleSheet.create({
   viewStyle: {
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     color: DEEP_BLUE,
     paddingBottom: 20,
     fontSize: 26
-  },
+  }
 })
 
 export default styles
